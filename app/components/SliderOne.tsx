@@ -4,15 +4,15 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const images = [
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
+  "/ai-three.jpg",
+  "/ai-two.jpg",
+  "/ai-one.jpg",
+  "/ai-four.jpg",
+  "/ai-three.jpg",
+  "/ai-two.jpg",
+  "/ai-one.jpg",
+  "/ai-four.jpg",
+  "/ai-three.jpg",
 ];
 
 const SliderOne = () => {
@@ -44,6 +44,7 @@ const SliderOne = () => {
                   width={1200}
                   height={600}
                   placeholder="blur"
+                  unoptimized={true}
                   blurDataURL="/placeholder.jpg"
                   className="w-full h-64 md:h-96 2xl:h-[30rem] object-cover"
                 />

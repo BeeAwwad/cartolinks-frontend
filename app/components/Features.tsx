@@ -70,7 +70,7 @@ const featureList = [
 ];
 const Features = () => {
   return (
-    <section className="px-10">
+    <section className="px-10 mb-10">
       <h2 className="text-2xl font-bold mb-8">Generate</h2>
       <div
         className="
@@ -83,7 +83,7 @@ const Features = () => {
         {featureList.map((feature) => (
           <div
             key={feature.id}
-            className="flex flex-col sm:flex-row justify-between hover:bg-slate-100 transition-colors rounded-2xl items-center px-6 py-3"
+            className="flex flex-col sm:flex-row justify-between hover:bg-slate-100 dark:hover:bg-slate-900 transition-colors rounded-2xl items-center px-6 py-3"
           >
             <div className="flex flex-col sm:flex-row items-center flex-1 gap-4">
               <div
@@ -113,7 +113,7 @@ const Features = () => {
                     </span>
                   )}
                 </div>
-                <p className="text-gray-600 flex-1 text-center sm:text-start text-sm mr-4">
+                <p className="text-slate-600 dark:text-slate-400 flex-1 text-center sm:text-start text-sm mr-4">
                   {feature.description}
                 </p>
               </div>

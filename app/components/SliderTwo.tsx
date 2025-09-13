@@ -5,11 +5,11 @@ import Image from "next/image";
 import { Icon } from "@iconify/react/dist/iconify.js";
 
 const images = [
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
-  "/placeholder.jpg",
+  "/ai-two.jpg",
+  "/ai-three.jpg",
+  "/ai-four.jpg",
+  "/ai-one.jpg",
+  "/ai-two.jpg",
 ];
 
 const SliderTwo = () => {
@@ -46,6 +46,7 @@ const SliderTwo = () => {
                   width={1200}
                   height={600}
                   placeholder="blur"
+                  unoptimized={true}
                   blurDataURL="/placeholder.jpg"
                   className="w-full h-64 md:h-96 2xl:h-[30rem] object-cover"
                 />
