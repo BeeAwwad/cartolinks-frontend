@@ -61,7 +61,7 @@ export const MobileNavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="sm:hidden fixed top-0 left-0 w-full z-50 bg-white backdrop-blur-md">
+    <div className="sm:hidden fixed top-0 left-0 w-full z-50 bg-white dark:bg-slate-800 dark:text-white text-black backdrop-blur-md">
       {/* Top bar with menu button */}
       <div className="flex items-center justify-between p-4">
         <Image src={"/logo.svg"} width={25} height={25} alt="logo" />
@@ -84,7 +84,7 @@ export const MobileNavBar = () => {
 
       {/* Side nav */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white z-50 transform transition-transform duration-300 ease-in-out
+        className={`fixed top-0 left-0 h-full w-64 bg-white dark:bg-slate-950 z-50 transform transition-transform duration-300 ease-in-out
           ${open ? "translate-x-0" : "-translate-x-full"}`}
       >
         <div className="flex items-center justify-between p-4">

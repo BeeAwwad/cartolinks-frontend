@@ -8,7 +8,7 @@ export default function Home() {
       <main>
         <Header />
         <Sliders />
-        {/* <Features /> */}
+        <Features />
       </main>
       {/* <footer>
         <div>Footer Content</div>

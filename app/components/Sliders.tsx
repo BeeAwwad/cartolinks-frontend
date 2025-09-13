@@ -47,7 +47,7 @@ const Sliders = () => {
   return (
     <section
       ref={sliderRef}
-      className="relative w-full h-screen overflow-x-hidden"
+      className="relative w-full h-screen overflow-x-hidden md:overflow-hidden"
     >
       <div className="inner-container flex flex-col items-center md:items-start md:flex-row gap-10 px-10 h-full mt-20 md:mt-28">
         <SliderOne />
